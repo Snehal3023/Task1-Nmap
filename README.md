@@ -17,45 +17,46 @@ Nmap done: 256 IP addresses (43 hosts up) scanned in 115.86 seconds
 <br>
 ![nmap -sS](https://github.com/user-attachments/assets/c5f4e608-be1b-4e76-a1e9-de7dacfe0a02)
 <br>
-Common Services
+Common Services with IP Address
 <br>
-telnet
+telnet 192.168.1.1  23
 <br>
-http
+http 192.168.1.11  80
 <br>
-https
+https 192.168.1.3  443
 <br>
-rtsp
+rtsp 192.168.1.64   554
 <br>
-http-alt
+http-alt 192.168.1.64
 <br>
-pop3pw
+pop3pw 192.168.1.12   106
 <br>
-resvc
+resvc 192.168.1.12   691
 <br>
-ansyslmd
+ansyslmd 192.168.1.12   1055
 <br>
-pn-requester
+pn-requester 192.168.1.12  2717
 <br>
-iss-realsec
+iss-realsec 192.168.1.12  2998
 <br>
-iscsi
+iscsi  192.168.1.12 3260
 <br>
-vrml-multi-use
+vrml-multi-use 192.168.1.12 4279
 <br>
-afs3-bos
+afs3-bos 192.168.1.12 7007
 <br>
-doceri-ctl
+doceri-ctl  192.168.1.12  7019
 <br>
-trivnet1
+trivnet1  192.168.1.12 8200
 <br>
-ff-sm
+ff-sm  192.168.1.15  1091
 <br>
-klogin
+klogin  192.168.1.17  547
 <br>
-<br>
+unknown  192.168.1.12   19801
+
+
 Risk with open port
-<br>
 http:-  Web vulnerabilities 
 <br>
 http-alt :- Exposed admin panels
