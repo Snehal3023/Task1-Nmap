@@ -7,7 +7,7 @@ Stable version:-  nmap-7.97-setup.exe
 <br>
 Run .exe file
 <br>
-![Alt text][installation](https://github.com/user-attachments/assets/ba07088c-f6ab-4294-a74a-6587c3a84460)
+![Alt text][installation](https://github.com/user-attachments/assets/5b603e60-3949-4b44-b9c0-f629204539e8)
 <br>
  nmap -sS 192.168.1.0/24
 <br>
