@@ -18,24 +18,41 @@ Nmap done: 256 IP addresses (43 hosts up) scanned in 115.86 seconds
 ![nmap -sS](https://github.com/user-attachments/assets/c5f4e608-be1b-4e76-a1e9-de7dacfe0a02)
 <br>
 Common Services
+<br>
 telnet
+<br>
 http
+<br>
 https
+<br>
 rtsp
+<br>
 http-alt
+<br>
 pop3pw
+<br>
 resvc
+<br>
 ansyslmd
+<br>
 pn-requester
+<br>
 iss-realsec
+<br>
 iscsi
+<br>
 vrml-multi-use
+<br>
 afs3-bos
+<br>
 doceri-ctl
+<br>
 trivnet1
+<br>
 ff-sm
+<br>
 klogin
-
+<br>
 <br>
 Risk with open port
 <br>
