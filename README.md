@@ -13,8 +13,38 @@ Run .exe file
 <br>
  sS Stand for SYN Scan
 <br>
-Nmap done: 256 IP addresses (38 hosts up) scanned in 124.75 seconds
+Nmap done: 256 IP addresses (43 hosts up) scanned in 115.86 seconds
+<br>
+![nmap -sS](https://github.com/user-attachments/assets/c5f4e608-be1b-4e76-a1e9-de7dacfe0a02)
+<br>
+Common Services
+telnet
+http
+https
+rtsp
+http-alt
+pop3pw
+resvc
+ansyslmd
+pn-requester
+iss-realsec
+iscsi
+vrml-multi-use
+afs3-bos
+doceri-ctl
+trivnet1
+ff-sm
+klogin
 
-![Alt text][nmap -sS](https://github.com/user-attachments/assets/a8ef1142-1cf5-45ec-8f64-e21f3ea930c2)
-
-
+<br>
+Risk with open port
+<br>
+http:-  Web vulnerabilities 
+<br>
+http-alt :- Exposed admin panels
+<br>
+https :- misconfigured SSL/TLS settings, expired or self-signed certificates
+<br>
+rtsp:- unencrypted video streams and credentials
+<br>
+telnet :- transmits all data, including passwords, in plaintext
