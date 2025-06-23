@@ -17,7 +17,19 @@ Nmap done: 256 IP addresses (43 hosts up) scanned in 115.86 seconds
 <br>
 ![nmap -sS](https://github.com/user-attachments/assets/c5f4e608-be1b-4e76-a1e9-de7dacfe0a02)
 <br>
-Common Services with IP Address
+
+Ip Address of open port
+http:-  192.168.1.11  80
+<br>
+http-alt :- 192.168.1.64
+<br>
+https :- 192.168.1.3  443
+<br>
+rtsp:- 192.168.1.64   554
+<br>
+telnet :- 192.168.1.1  23
+
+Common Services with IP Address with port
 <br>
 telnet 192.168.1.1  23
 <br>
@@ -66,3 +78,7 @@ https :- misconfigured SSL/TLS settings, expired or self-signed certificates
 rtsp:- unencrypted video streams and credentials
 <br>
 telnet :- transmits all data, including passwords, in plaintext
+<br>
+
+[View HTML File](nmap sS scan file.html)
+
